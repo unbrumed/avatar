@@ -1,0 +1,24 @@
+{
+  "name": "me.tynrare.net",
+  "version": "0.0.4",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.pug",
+    "build": "parcel build src/index.pug"
+  },
+  "staticFiles": {
+    "staticPath": "res",
+    "staticOutPath": "res"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.3.1",
+    "@parcel/transformer-less": "^2.3.1",
+    "@parcel/transformer-pug": "^2.3.1",
+    "jstransformer-markdown-it": "^3.0.0",
+    "parcel": "^2.3.1",
+    "parcel-reporter-static-files-copy": "^1.3.4"
+  }
+}
