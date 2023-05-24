@@ -1,1 +1,1 @@
-![0](index.pug)
+![0](index.png)
